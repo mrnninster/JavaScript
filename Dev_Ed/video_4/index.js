@@ -1,52 +1,22 @@
-const name = "mrnninster"; //Globally avaialable variable -> Global Scope
+// #STRING CONCATENATION
 
-// Creating a function
-function example_function() {
-  const fname = "MRNNINSTER"; //Function available variable -> Function Scope
+// This simply means joinging two "strings" together. When we concatenate strin and numbers, the numbers are converted to strings and joined to the string.
 
-  // Printing Variables
-  console.log("Function variable " + fname);
-  console.log("Global variable " + name);
-}
+// Defined Variables
+const my_name = "mrnninster";
+const language = "JavaScript";
+age = 9999
 
-// Uncomment this section to test the function scope
-// // Printing Variables
-// console.log("Function variable " + fname); //You get an error for this because its not global
-// console.log("Global variable " + name);
+// Sample Concatenation (String Format bugs)
+console.log(my_name + "is learning" + language); // This requires addition of spaces
 
-// Parameters(Ingredients)
-const water = "water";
-const spaghetti = "spaghetti";
-const oil = "oil";
-const topping = "topping";
+// console.log('hello it's your friendly neighbourhood spider man') // This requires escaping i.e use backslash("\") before the "s"
 
-// Auto Cook Function
-function auto_Cook(water, spaghetti, oil, topping) {
-  console.log("add " + water + "to pot");
-  console.log("add " + spaghetti + " to pot");
-  console.log("add " + oil + " to pot");
-  console.log("cook for 20 minutes");
-  console.log("serve with " + topping);
-}
+// Recommended Method (Using Backticks)
+console.log(`hello it's your friendly neighbourhood spider man writing ${language}`)
 
-// Example by Dev_Ed
-function toUpper(name) {
-  var name = name.toUpperCase();
-  console.log(name);
-}
-
-// Function invocation
-example_function();
-auto_Cook(water, spaghetti, oil, topping);
-toUpper(name);
-
-// OTHER WAYS TO CREATE A FUNCTION
-const function_name = function () {
-  // function contents
-  // Supports Parameters
-};
-
-const function2_name = () => {
-  // function Contents
-  // Supports Parameters
-};
+// Mixed Data Concatenation(Integer and String)
+var combine = language + age
+console.log(combine)
+//  To Check
+console.log(typeof combine)
