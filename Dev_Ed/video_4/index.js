@@ -1,6 +1,3 @@
-// #STRING CONCATENATION
-
-// This simply means joinging two "strings" together. When we concatenate strin and numbers, the numbers are converted to strings and joined to the string.
 
 // Defined Variables
 const my_name = "mrnninster";
