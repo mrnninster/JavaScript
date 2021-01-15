@@ -1,0 +1,14 @@
+.btn_style {
+  color: aliceblue;
+  background-color: black;
+  width: 50%;
+  margin-left: 25%;
+  height: 30px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.cu_header_style {
+  color: green;
+  border: 3px solid rgb(18, 156, 115);
+}
