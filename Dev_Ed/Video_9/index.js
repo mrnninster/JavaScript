@@ -30,5 +30,23 @@ const infoList = document.querySelectorAll(".name_list li");
 for (info of infoList) {
   info.addEventListener("click", function () {
     console.log(this);
+    this.style.color = "red";
   });
 }
+
+// For the List Input
+const item_list = document.querySelector(".name_list");
+const list_update = document.querySelector(".list_update");
+const add_item = document.querySelector(".add_item");
+
+add_item.addEventListener("click", function () {
+  // Create an LI out of thin air
+  const newLI = document.createElement("li");
+  const addInput = document.createTextNode(list_update.value);
+
+  // add input value to the created li
+  newLI.appendChild(addInput);
+
+  // add li to item list
+  item_list.appendChild(newLI);
+});
