@@ -1,7 +1,3 @@
-//  # DOM MANIOULATION
-// DOM Mnaipulation allows us change the contents of our web pages. It is how we make our
-// webpages interactive.
-
 // Selecting Elements in the Html File bu className
 header = document.querySelector(".cu_header");
 button = document.querySelector(".button");
