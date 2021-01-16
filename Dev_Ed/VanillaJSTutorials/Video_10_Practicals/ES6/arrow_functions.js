@@ -75,5 +75,4 @@ const new_user = {
     other_details();
   },
 };
-
 new_user.user_name();
