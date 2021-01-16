@@ -2,7 +2,7 @@
 // CONCATENATION OLD METHOD //
 //////////////////////////////
 
-const name = "mrnninster";
+var name = "mrnninster";
 
 console.log("Thank you for using this git repo says " + name);
 
