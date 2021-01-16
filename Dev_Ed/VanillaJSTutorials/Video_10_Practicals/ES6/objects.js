@@ -2,6 +2,7 @@
 // OBJECT LITERALS OLD JS //
 ////////////////////////////
 
+// Define function
 function book(title, author) {
   return {
     author: author,
@@ -9,6 +10,7 @@ function book(title, author) {
   };
 }
 
+// Create Object
 var getbook = book("mrnninster", "JSTutCode");
 console.log(getbook);
 
@@ -16,6 +18,7 @@ console.log(getbook);
 // ES6 OBJECT LITERALS //
 /////////////////////////
 
+// Define Function
 function setbook(title, author) {
   return {
     author,
@@ -23,5 +26,6 @@ function setbook(title, author) {
   };
 }
 
+// Create Object
 let newBook = setbook("JavaScript", "mrnninster");
 console.log(newBook);
