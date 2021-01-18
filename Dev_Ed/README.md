@@ -13,5 +13,17 @@ This section follows his tutorial videos on javascript and can be watched throug
 - Objects and Keyword ==> Video_7
 - For Loop and While Loop ==> Video_8
 - Dom Manipulation ==> Video_9
+- Practicals
+  - R-P-S(Rock-Paper-Scissors)
+  - Updates in ES6
+    - variables
+    - concatenation
+    - objects
+    - object deconstructions
+    - arrow functions
+    - default parameters
+    - Array Functions
+    - Constructor Functions and Classes
+    - Promises
 
 Updates will be added as i progress through the course
