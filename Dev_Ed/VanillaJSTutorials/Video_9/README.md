@@ -1,4 +1,4 @@
-# DOM MANIOULATION
+# DOM MANIPULATION
 
 DOM Mnaipulation allows us change the contents of our web pages. It is how we make our
 webpages interactive.
